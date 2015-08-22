@@ -1,0 +1,116 @@
+body  {  
+	margin: 0;
+  	padding: 0;
+   	font-family: "Verdana", "Arial", "Helvetica", sans-serif;
+  	font-size: 12px;
+  	line-height: 16px;
+  	text-align: justify;  
+} 
+#header {
+	background: black;
+	border: 1em solid white;
+	margin: 0 0 1 0px;
+}
+#header img {
+	margin: 10px;
+	width: 150px;
+	height: 75px;
+	-webkit-transition: all 3s linear;
+	-moz-transition: all 3s linear;	
+
+}
+#header img:hover {
+	margin-left: 900px;
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+}
+#menu {
+	background-color: #000000;
+	-webkit-transition: background-color 1s linear;
+	-moz-transition: background-color 1s linear;
+
+}
+#menu:hover {
+	background-color: #ffffff;
+	-webkit-transition: background-color 1s linear;
+	-moz-transition: background-color 1s linear;
+}
+#menu a {
+	margin-right: 1em;
+	margin-left: 1em;
+	background-color: transparent;
+	text-align: center;
+	color: white;
+	font-family: verdana;
+	text-decoration:none;
+	-webkit-transition: all 0.8s linear;
+	-moz-transition: all 0.8s linear;
+}	
+#menu a:hover {
+	text-shadow: 0 0 3px;
+	color: black;
+	-webkit-transition: all 0.7s linear;
+	-moz-transition: all 0.7s linear;
+}
+#news  { 
+	margin: 1 0.5 0 0%;
+	text-align: center; 	
+	float: right;  	
+	width: 23.5%;  	  
+	background: white;
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	}
+#news:hover {
+	-webkit-transition: all 0.8s linear;
+	-moz-transition: all 0.8s linear;
+	color:white;
+	background-color: black;
+}
+#content  {
+	-webkit-transition: all 0.8s linear;
+	-moz-transition: all 0.8s linear;
+	height: 40%;
+	font-family: tahoma;
+	float: left;  	
+	width: 75.5%;  	  	
+	margin: 1 0 0 0.5%;
+	opacity: 1;
+	background-color: black;
+	color: white;
+	}
+#content h4 {
+	margin: 0 10 10 20px;  	
+	font-family: tahoma;	
+	opacity: 1;
+	color: white;
+	}
+#content h3 {
+	margin: 10 10 10 10px;  	
+	font-family: tahoma;	
+	opacity: 1;
+	color: white;
+	}
+#content:hover  {
+	color: black;
+	background-color: gray;
+	-webkit-transition: all 0.8s linear;
+	-moz-transition: all 0.8s linear;
+	}
+#content a {
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	margin: 10px;
+	text-decoration: none;
+	background: #black;
+	color: blue;
+}
+#content a:hover {
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	margin: 10px;
+	text-shadow: 0 0 5px white;
+	text-decoration: none;
+	background: transparent;
+	color: white;
+}

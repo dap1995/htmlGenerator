@@ -1,0 +1,35 @@
+body {
+	
+}
+body img {
+	width: 100px;
+	height: 100px;
+}
+#header {
+	width: auto;
+	height: auto;
+}
+#content {
+	background-color: blue;
+	width: 400px;
+	height: 200px;
+	font-family: Arial;
+	border-radius: 5px;
+}
+#menu {
+	background-color: #92ff87;
+	width: 600px;
+}
+#menu a {
+	background-color: #92ff87;
+	border-radius: 10px;
+	text-decoration: none;
+	font-family: monospace;
+	margin-right: 5px;
+}
+#menu a:hover {
+	background-color: #92af87;
+	border-radius: 10px;
+	text-decoration: none;
+	font-family: monospace;
+}

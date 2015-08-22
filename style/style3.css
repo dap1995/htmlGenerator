@@ -1,0 +1,95 @@
+h1 {
+-webkit-transition: all 2s linear;
+-moz-transition: all 2s linear;
+transition: all 2s linear;
+background: transparent;
+}
+h1:hover {
+-webkit-transition: all 1.4s linear;
+background: white;
+color: black;
+}
+body {
+margin: 0px;
+padding: 0px;
+}
+#header {
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+transition: all 1s linear;
+text-align: center;
+overflow: hidden;
+float: right;
+color: white;
+width: 400px;
+height: 10px;
+opacity: 0.2;
+background: black;
+position: fixed;
+margin: 0 0 0 420px;
+border: 2 2 2 2px solid white;
+}
+#header:hover {
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+transition: all 1s linear;
+width: 400px;
+height: 110px;
+overflow: hidden;
+opacity:0.8;
+border: 2 2 2 2px solid white;
+}
+#content {
+width: 1200px;
+margin: 1em;
+opacity: 1;
+}
+
+#mini {
+background: transparent;
+-webkit-transition: all 0.8s linear;
+-moz-transition: all 0.8s linear;
+transition: all 0.8s linear;
+width: 320px;
+float: right;
+margin: 60 60 0 0px;
+padding:60 60 0 0px;
+color: gray;
+}
+#mini:hover {
+-webkit-transition: all 0.8s linear;
+-moz-transition: all 0.8s linear;
+transition: all 0.8s linear;
+width:350px;
+float: right;
+margin: 20 20 0 0px;
+padding: 20 20 00 0px;
+color: black;
+}
+img{
+width: 320px;
+opacity: 0.5;
+float: right;
+border-radius:1200px;
+}
+img:hover{
+-webkit-transition: all 0.8s linear;
+-moz-transition: all 0.8s linear;
+transition: all 0.8s linear;
+width: 350px;
+opacity: 1;
+float: right;
+-moz-box-shadow: 8px 8px 4px #888;
+-webkit-box-shadow: 8px 8px 4px #888;
+box-shadow: 8px 8px 4px #888;
+}
+a:link, a:active, a:visited{ 
+-webkit-transition: all 0.8s linear;
+color: gray; 
+text-decoration: none;
+}
+a:hover {
+-webkit-transition: all 0.3s linear;
+color: purple;
+text-decoration: none;
+}
